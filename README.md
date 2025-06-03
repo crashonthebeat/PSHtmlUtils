@@ -18,13 +18,13 @@ all single threaded because I believe in patience (read: async still confuses me
 **Outputs**: HtmlDocument
 
 ### Find-Node
-`Find-Node -Document <html string> -Tag <name of tag>`
+`Find-Nodes -Document <html string> -Tag <name of tag>`
 
-`Find-Node -Document <html string> -Id <id>`
+`Find-Nodes -Document <html string> -Id <id>`
 
-`Find-Node -Document <html string> -Class <class names as string of space separated classes>`
+`Find-Nodes -Document <html string> -Class <class names as string of space separated classes>`
 
-`Find-Node -Document <html string> -AttributeName <other attribute to search> -AttributeValue <value>`
+`Find-Nodes -Document <html string> -AttributeName <other attribute to search> -AttributeValue <value>`
 
 Document also accepts pipeline input
 
