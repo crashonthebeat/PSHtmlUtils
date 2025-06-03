@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Module</OutputType>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <AssemblyName>PSHtmlUtils</AssemblyName>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageId>PSHtmlUtils</PackageId>
+        <Version>0.1</Version>
+        <Title>PSHtmlUtils</Title>
+        <Authors>Chris Bogart</Authors>
+        <Description>Two cmdlets and some types for reading HTML like javascript.</Description>
+        <RepositoryUrl>https://github.com/crashonthebeat/PSHtmlUtils</RepositoryUrl>
+        <Company />
+        <Product>PSHtmlUtils</Product>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="PowerShellStandard.Library" Version="5.1.1">
+            <PrivateAssets>All</PrivateAssets>
+        </PackageReference>
+        <PackageReference Include="System.Management.Automation" Version="7.5.1" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlUtils", "HtmlUtils.csproj", "{244C394B-6999-4402-ACB3-CF7185563E76}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{244C394B-6999-4402-ACB3-CF7185563E76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{244C394B-6999-4402-ACB3-CF7185563E76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{244C394B-6999-4402-ACB3-CF7185563E76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{244C394B-6999-4402-ACB3-CF7185563E76}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
